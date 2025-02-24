@@ -114,7 +114,7 @@ In AndroidManifest.xml file:
 1. **Login Page** → **Signup Page** → **Login Page** → **Home Page**
 2. **Home Page** → **Governorates Page** → **Landmarks Page** → **Landmarks details**
 3. **Home Page** → **Favorites Page**
-4. **Home Page** → **Profile Page**
+4. **Home Page** → **Settings Page**
 
 ------------
 ## App Structure
@@ -138,14 +138,17 @@ The main folders in lib are:
 | Home Page                               | Governorates Page                                 | Favourites Page                      |
 |-----------------------------------------|---------------------------------------------------|--------------------------------------|
 | ![Home](home_screen.png)                | ![Governorates](governorates_screen.png)          | ![Favourites](favourites_screen.png) |
+
 | Settings Page                           | Governorates Places                               | Home Page (dark and arabic)          |
 | ----------------------------------      | ------------------------------------------------- | -------------------------------      |
 | ![Settings](settings_screen.png)        | ![Governorates Places](governorates_places.png)   | ![Home Dark](home%20dark.png)        |
+
 | Google maps (place details)             | Change profile options                            | Change profile Output                |
-| ---------------------------------       | -----------------------------------------         | -------------------------------      |
+| ----------------------------------------| --------------------------------------------------| -------------------------------------|
 | ![Place det](place_details.jpg)         | ![Profile options](profile_options.jpg)           | ![Output](change_profile.jpg)        |
+
 | Auth fingerprint                        | Auth done                                         | Auth failed                          |
-| --------------------------------------- | -----------------------------                     | ---------------------------------    |
+| --------------------------------------- | --------------------------------------------------| -------------------------------------|
 | ![Profile Auth](auth_fingerprint.jpg)   | ![Auth done](auth_done.jpg)                       | ![Auth denied](auth_denied.jpg)      |
 
 -------------------------
@@ -158,7 +161,6 @@ The main folders in lib are:
 - **firebase_auth**: For using Firebase Auth and enabling authentication using email and password. ==> https://pub.dev/packages/firebase_auth.
 - **cloud_firestore**: for Cloud Firestore, a cloud-hosted, noSQL database with live synchronization and offline support. ==> https://pub.dev/packages/cloud_firestore.
 - **skeletonizer**: For skeleton loading effect and enhance user experience during web or app loading. ==> https://pub.dev/packages/skeletonizer.
-- **New**------------------------
 - **google_maps_flutter**: For using google maps ==> https://pub.dev/packages/google_maps_flutter.
 - **url_launcher**: For launching google maps outside the app with specific location ==> https://pub.dev/packages/url_launcher.
 - **image_picker**: To enable the user to change his picture by picking images from the image library, or taking pictures with the camera ==> https://pub.dev/packages/image_picker.
