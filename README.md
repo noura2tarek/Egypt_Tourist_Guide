@@ -17,9 +17,9 @@ The app contains four Blocs:
 3- **Home screen & places**:
 - PlacesBloc.
 
-  -------------------
+-------------------
 
-# Connect App to Firebase
+# Connected to Firebase
 Project configuration with firebase --> done using the flutterfire CLI and flutterfire configure command.
 
 After the project is configured, firebase options file is added to lib folder.                                                         
@@ -27,7 +27,9 @@ Then, we add firebase core, firebase_auth, cloud_firestore packages to the pubsp
 
 And initialize firebase in main.dart file.
 
-## Pages & Features
+-------------------
+
+# Pages & Features
 
 ### 1. Signup Page
 - **Input Fields**: Full Name, Email, Password, confirm password, Phone Number (optional).
